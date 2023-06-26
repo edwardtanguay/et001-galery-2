@@ -13,7 +13,7 @@ const places = [
     },
     {
         id: 3,
-        name: "خانه منطقی نژاد",
+        name: "haus manteghi nejad",
         description: "Dieses Haus gilt als eines der historischen Gebäude der Qajar-Zeit und ist eine sehenswerte Sehenswürdigkeit in Shiraz. Es verfügt über einen königlichen Teil und verschiedene Räume im östlichen und westlichen Teil. Das Logische Haus von Nejad wurde 1352 als eines der Nationalwerke Irans registriert. Einige Teile des Musikmuseums umfassen die Musik der Nationen, iranische Instrumente, ein Musikstudio, einen Lehr- und Lernort, einen Archivraum und eine Vorstellung iranischer Musiker sowie ein Audio-Repository.",
         src: "images/manteghinejad.jpg"
     },
