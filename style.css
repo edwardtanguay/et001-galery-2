@@ -100,7 +100,7 @@ img {
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .all-imgs img{
         width: 10rem;   
     }
