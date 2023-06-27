@@ -10,23 +10,25 @@
 
 @font-face {
 	font-family: Pacifico;
-	src: url(./Font/Pacifico-Regular.ttf);
+	src: url(../fonts/Pacifico-Regular.ttf);
 }
 
 body {
 	font-family: Pacifico;
 	font-size: 1, 3rem;
 	background-color: lightgoldenrodyellow;
+
+	img {
+		border-radius: 20;
+		padding: 0.5rem
+	}
+
+	.wrapper {
+		display: flex;
+	}
 }
 
-img {
-	border-radius: 20;
-	padding: 0.5rem
-}
 
-.wrapper {
-	display: flex;
-}
 
 .all-imgs {
 	display: flex;
@@ -86,7 +88,7 @@ img {
 
 .animate-imgs {
 	opacity: 0.5;
-	transform: translate(-20px, 0);
+	transform: translate(20px, 0);
 	animation: animate-imgs 0.5s ease-in-out forwards;
 }
 
@@ -102,7 +104,8 @@ img {
 		width: 10rem;
 	}
 
-	.image-desc, .image-title {
+	.image-desc,
+	.image-title {
 
 		font-size: 0.6rem;
 	}
